@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Pricing from '../views/Pricing';
+import Forms from '../views/Forms';
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/pricing',
     name: 'pricing',
     component: Pricing
+  },
+  {
+    path: '/forms',
+    name: 'form',
+    component: Forms
   },
   {
     path: '/about',
